@@ -37,7 +37,7 @@ int myrandom (int first, int last) { return rand()%(last - first + 1);}
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
-      std::srand ( unsigned ( std::time(0) ) );
+    std::srand ( unsigned ( std::time(0) ) );
     
     int c;
     cin >> c;
